@@ -1,7 +1,7 @@
 # Data Analysis Project Documentation
 ## Phase 1 : Identifying and Defining
 ### Mind Map
- ![Project Ideas Mind Map](./images/mind-map.png)
+ ![Project Ideas Mind Map](./images/mind%20map.png)
 
 ### Define Your Purpose
 **Hypothesis :** Awareness of unethical practices in companies would reduce students' willingness to buy its products. However, when that company is popular or widely recognised, many would be more reluctant to refrain from buying these products even if they are unethically sourced.
@@ -13,7 +13,7 @@
 
 2. Data Cleaning: System must be able to group same values(1-5) together.
 
-3. Data Analysis: 
+3. Data Analysis: System needs to calculate
 
 hat kind of statistical analysis does the system need to allow for (e.g. mean, median, mode)?
 
@@ -32,6 +32,7 @@ hat kind of statistical analysis does the system need to allow for (e.g. mean, m
 
 ## Phase 2 : Researching and Planning
 ### Research Your Chosen Issue
+**Chosen Issue :** Leading chocolate brands and their inadequate ethicalities.
 
 ### Discuss the findings
 
