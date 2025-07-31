@@ -11,13 +11,11 @@
 
 1. Data Loading: The system must be able to load .csv and .png files. When handling errors during file loading like incorrect format and missing files, the system should be able to report error messages(eg. File is missing).
 
-2. Data Cleaning: System must be able to group same values(1-5) together.
+2. Data Cleaning: System must be able to group same values(1-5) together in each question/column.
 
-3. Data Analysis: System needs to calculate
+3. Data Analysis: System needs to calculate the median of each question/column.
 
-hat kind of statistical analysis does the system need to allow for (e.g. mean, median, mode)?
-
-4. Data Visualisation: Data will need to be visualised in a grouped bar chart using Matplotlib.
+4. Data Visualisation: Data will need to be visualised in a grouped bar chart or a boxplot using Matplotlib.
 
 5. Data Reporting: The system ahould include a table output where columns are responses 1-5 and rows are Questions 1 through 3. The final dataset needs to be stored in a .csv file.
 
@@ -26,7 +24,7 @@ hat kind of statistical analysis does the system need to allow for (e.g. mean, m
 
 1. Speed : The system should not take a unreasonable amount of time to process/load (should be around ~5-20 seconds max)
 2. Security : All data taken from students should be anonymous and not attached to any gmails. 
-3. Reliability : Error messages should be clear, specific and informative(eg. Unsupported file format). Data used and displayed in this project/final reporting should also be accurate to student responses, and within established range(1-5).
+3. Reliability : Error messages should be clear, specific and informative(eg. Unsupported file format). Data used and displayed in this project/final reporting should also b  e accurate to student responses, and within established range(1-5).
 4. Usability : The 'README' document needs to clear and concise in the purpose of the system and how to use it. The User Interface should be accessible, easy to navigate and comprehensible to viewers.
 
 
