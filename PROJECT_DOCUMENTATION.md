@@ -27,14 +27,102 @@
 3. Reliability : Error messages should be clear, specific and informative(eg. Unsupported file format). Data used and displayed in this project/final reporting should also b  e accurate to student responses, and within established range(1-5).
 4. Usability : The 'README' document needs to clear and concise in the purpose of the system and how to use it. The User Interface should be accessible, easy to navigate and comprehensible to viewers.
 
+**Use Case**
+
+Now we need to a develop a use-case to outline how a user might access information from the system. Remember that the user will need to be able to access the program via a user interface (text-based is fine) to look at the data itself, any visualisations and perhaps even update data depending on the system. keep in mind you will need to tailor this to your system and be more specific. 
+
+**Actor:** User
+
+**Goal:** To access and interact with existing data on the ethics of chocolate companies (based on Google Form responses from GHS students) through the program’s user interface.
+
+**Preconditions:**
+
+The dataset has already been preloaded into the system by an administrator / programmer(me).
+
+NSW education email users(students & teachers) have access to the system interface.
+
+**Main Flow:**
+
+User opens the program and is presented with a text-based menu.
+
+User selects one of the following options:
+a. View visualisation (grouped bar chart/box plot)
+b. Search or filter data based on individual responses OR responses in a specific question
+c. Update a data entry (e.g., change a value or correct an error)
+
+System performs the requested action and outputs to user.
+
+**Postconditions:**
+
+User has viewed and/or interacted with the data.
+
+Any valid updates are saved by the system.
+
+Data remains available for further queries or analysis.
+
 
 ## Phase 2 : Researching and Planning
 ### Research Your Chosen Issue
 **Chosen Issue :** Leading chocolate brands and their inadequate ethicalities.
+**Chosen Issue :** Leading chocolate brands and their inadequate ethicalities.
 
-### Discuss the findings
 
-### Planning
+Ethical issues surrounding cocoa sourcing such as deforestation, low wages, poor working conditions, child labour and a lack of transparency have both been addressed but have persisted in leading chocolate brands since the early 2000s. As an industry with a global market size of approximately $216.8 billion AUD and a popularity that isn't dying down any time soon, it is critical to also educate modern-day consumers on what practices they are supporting when they buy from specific companies.
+
+
+https://apnews.com/article/chocolate-deforestation-cocoa-farming-nigeria-08b396be56cc65d08c950f61308539d3
+
+
+According to an article by Taiwo Adebayo, irresponsible cocoa farming from chocolate companies has also had a detrimental environmental effect. Protected lands like the Omo Reserve Reserve in Nigeria, one of Africa’s “oldest and largest UNESCO Biosphere Reserves” are facing illegal deforestation for the expansion of cocoa farming lands, causing a consequent endangerment of native land and species like the African forest elephant. Trading companies buy cocoa supplies from these cocoa farmers in prohibited areas to sell to names like Snickers, Ferrero and Nutella.
+
+
+https://www.sustainalytics.com/esg-research/resource/investors-esg-blog/child-labor-in-cocoa-supply-chains--unveiling-the-layers-of-human-rights-challenges?utm_source=chatgpt.com
+To further highlight the issue at hand, this activity is an exploitation of the poverty of local Nigerian farmers and other like communities in developing countries of West Africa. Since the 1970s, large companies have decreased cocoa farmers' value in a chocolate bar from 50% to 6% today. Some researchers argue that this decline is an attempt to reduce prices to combat competition, however chocolate prices have risen by 14% in 2023 and it has become clear that profit is being prioritised over stable and reasonable wages for cocoa farmers. 
+
+
+Due to this, in countries like Ghana, child labour within cocoa supply chains has become more prevalent as poverish families face systematic oppression and an income that is simply not enough to support everyday life. 45% of children in cocoa farming areas engage in farming activities, and as these children are mostly rooted in financial challenges and adversity, many supply chains expose them to poor working conditions including:
+Exposure to pesticides
+Carrying heavy loads continuously 
+No social security or safety nets/regulations
+Operating dangerous equipment
+Long working hours + low pay
+
+
+As a society, it is important for us consumers to be both held responsible for what companies we buy from. Therefore, it is also pivotal to be bluntly aware and informed on which brands to avoid and which brands to support to ensure that in future, the chocolate industry will have strict regulations with strict consequences for those who continue to exploit workers and the environment. 
+
+
+https://www.chocolatescorecard.com/
+These are the current main offenders:
+
+
+
+
+
+
+
+
+
+
+
+
+Great and amazing brands to buy from:
+Tony’s Chocolate
+Beyond Good
+Coop
+
+
+### Discuss the findings (firday work thanks)
+SEE-I
+Everyday people
+
+
+### Planning (Data Dictionary)
+|Field |Datatype |Format for display |Description |Example | Validation |
+|-------|-------------|-------------------------|----------------|------------|---------------|
+|Control |Integer(Numeric) |Numeric Format |Control question on student's inclination to buying chocolate without any external affecting factors |3 |Must be a number between range 1-5 inclusively
+|After unethical practices identification |Integer(Numeric) |Numeric Format | Student’s inclination to buying chocolate after identifying unethical practices within the company |4   |Must be a number between range 1-5 inclusively
+|After brand recognition |Integer(Numeric) |Numeric Format | Student’s inclination to buying chocolate after identifying unethical practices within the company AND the company itself |1 |Must be a number between range 1-5 inclusively
+
 
 ## Phase 4 : Testing and Evaluating
 ### Analyse and Conclude
