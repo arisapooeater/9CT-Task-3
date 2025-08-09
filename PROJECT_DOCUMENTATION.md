@@ -29,12 +29,9 @@
 
 **Use Case**
 
-Now we need to a develop a use-case to outline how a user might access information from the system. Remember that the user will need to be able to access the program via a user interface (text-based is fine) to look at the data itself, any visualisations and perhaps even update data depending on the system. keep in mind you will need to tailor this to your system and be more specific. 
-
 **Actor:** User
 
-**Goal:** To access and interact with existing data on the ethics of chocolate companies (based on Google Form responses from GHS students) through the program’s user interface.
-
+**Goal:** To access and interact with existing data on the ethics of chocolate companies (based on Google Form responses from GHS students) through the program’s user interface.  
 **Preconditions:**
 
 The dataset has already been preloaded into the system by an administrator / programmer(me).
@@ -48,7 +45,7 @@ User opens the program and is presented with a text-based menu.
 User selects one of the following options:
 a. View visualisation (grouped bar chart/box plot)
 b. Search or filter data based on individual responses OR responses in a specific question
-c. Update a data entry (e.g., change a value or correct an error)
+
 
 System performs the requested action and outputs to user.
 
@@ -56,8 +53,6 @@ System performs the requested action and outputs to user.
 **Postconditions:**
 
 User has viewed and/or interacted with the data.
-
-Any valid updates are saved by the system.
 
 Data remains available for further queries or analysis.
 
