@@ -27,6 +27,35 @@
 3. Reliability : Error messages should be clear, specific and informative(eg. Unsupported file format). Data used and displayed in this project/final reporting should also b  e accurate to student responses, and within established range(1-5).
 4. Usability : The 'README' document needs to clear and concise in the purpose of the system and how to use it. The User Interface should be accessible, easy to navigate and comprehensible to viewers.
 
+**Use Case**
+
+**Actor:** User
+
+**Goal:** To access and interact with existing data on the ethics of chocolate companies (based on Google Form responses from GHS students) through the program’s user interface.  
+**Preconditions:**
+
+The dataset has already been preloaded into the system by an administrator / programmer(me).
+
+NSW education email users(students & teachers) have access to the system interface.
+
+**Main Flow:**
+
+User opens the program and is presented with a text-based menu.
+
+User selects one of the following options:
+a. View visualisation (grouped bar chart/box plot)
+b. Search or filter data based on individual responses OR responses in a specific question
+
+
+System performs the requested action and outputs to user.
+
+
+**Postconditions:**
+
+User has viewed and/or interacted with the data.
+
+Data remains available for further queries or analysis.
+
 
 ## Phase 2 : Researching and Planning
 ### Research Your Chosen Issue
