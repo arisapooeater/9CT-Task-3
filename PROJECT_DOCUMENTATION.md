@@ -116,9 +116,12 @@ Ritter Sport
 ### Planning
 >**NOTE** - My data is from the results in the Google Form I created that was sent to Gosford High students (https://docs.google.com/forms/d/e/1FAIpQLScZJvZPyFoNlSzkuq3TSwnd-fCinHsBgpj-bX4cZNu_lbbQoA/viewform?usp=dialog)
 
-|Field |Datatype |Format for Display |Description |Example |Validation |
-|------|---------|-------------------|------------|--------|-----------|
-|       
+|Field |Datatype |Format for display |Description |Example | Validation |
+|-------|-------------|-------------------------|----------------|------------|---------------|
+|Control | | |            | |Must be a number between range 1-5 inclusively
+|After unethical practices identification | | | Student’s inclination to buying chocolate after identifying unethical practices within the company |   |Must be a number between range 1-5 inclusively
+|After brand recognition | | | Student’s inclination to buying chocolate after identifying unethical practices within the company AND the company itself | |Must be a number between range 1-5 inclusively
+
 
 ## Phase 4 : Testing and Evaluating
 ### Analyse and Conclude

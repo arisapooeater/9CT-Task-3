@@ -26,15 +26,22 @@ def main_menu():
             display_visualisation()
         elif choese == '3':
             search_data()
-            print("Changes saved.")
+            print("""
+                  ________________
+                 | Changes saved. |
+                  ________________ """)
         elif choese == '4':
             time.sleep(1)
-            print(""" ____________________
-                     | Exiting program..  |
-                      ____________________""")
+            print("""
+                  ____________________
+                 | Exiting program..  |
+                  ____________________""")
             break
         else:
-            print("Invalid selection. Please select a number between 1 and 4.")
+            print("""
+                  ___________________________________________________________
+                 |Invalid selection. Please select a number between 1 and 4. |
+                  ___________________________________________________________""")
 
 
 main_menu() 
