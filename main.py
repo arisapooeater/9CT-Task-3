@@ -1,4 +1,7 @@
 import time
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 
 from data_module import (
     display_dataset_preview,
@@ -18,20 +21,15 @@ def main_menu():
                   _________________________________""")
 
 
-        choese = input(f"Select an option (1-4): ").strip()
-
-        if choese == '1':
+        menu_choice = int(input("[ Select an option (1-4):     ] ")).strip()
+        time.sleep(2)
+        if menu_choice == '1':
             display_dataset_preview()
-        elif choese == '2':
+        elif menu_choice == '2':
             display_visualisation()
-        elif choese == '3':
+        elif menu_choice == '3':
             search_data()
-            print("""
-                  ________________
-                 | Changes saved. |
-                  ________________ """)
-        elif choese == '4':
-            time.sleep(1)
+        elif menu_choice == '4':
             print("""
                   ____________________
                  | Exiting program..  |
