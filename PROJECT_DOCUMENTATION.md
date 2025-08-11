@@ -118,9 +118,9 @@ Ritter Sport
 
 |Field |Datatype |Format for display |Description |Example | Validation |
 |-------|-------------|-------------------------|----------------|------------|---------------|
-|Control | | |            | |Must be a number between range 1-5 inclusively
-|After unethical practices identification | | | Student’s inclination to buying chocolate after identifying unethical practices within the company |   |Must be a number between range 1-5 inclusively
-|After brand recognition | | | Student’s inclination to buying chocolate after identifying unethical practices within the company AND the company itself | |Must be a number between range 1-5 inclusively
+|Control |Integer |N | Student's inclination to buying chocolate in general before any condition making/information brought to student's awareness |5 |Must be a number between range 1-5 inclusively
+|After unethical practices identification |Integer |N | Student’s inclination to buying chocolate after identifying unethical practices within the company |1   |Must be a number between range 1-5 inclusively
+|After brand recognition |Integer |N | Student’s inclination to buying chocolate after identifying unethical practices within the company AND the company itself |2 |Must be a number between range 1-5 inclusively
 
 
 ## Phase 4 : Testing and Evaluating
