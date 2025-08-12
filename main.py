@@ -11,29 +11,33 @@ from data_module import (
 
 def main_menu():
     while True:
-        print(""" _________________________________
-                 | \n=== Data Viewer Interface === |
+        time.sleep(3)
+        print("""
+                  _________________________________
+                 |       Data Viewer Interface     |
                  |---------------------------------| 
                  | 1. View dataset                 |
                  | 2. View visualisation           |
-                 | 3. Search or filter data        |
+                 | 3. Search specific data         |
                  | 4. Exit                         |
                   _________________________________""")
 
 
-        menu_choice = int(input("[ Select an option (1-4):     ] ")).strip()
+        menu_choice = int(input("""
+                 Select an option (1-4): """))
         time.sleep(2)
-        if menu_choice == '1':
+        if menu_choice == 1:
             display_dataset_preview()
-        elif menu_choice == '2':
+        elif menu_choice == 2:
             display_visualisation()
-        elif menu_choice == '3':
+        elif menu_choice == 3:
             search_data()
-        elif menu_choice == '4':
+        elif menu_choice == 4:
             print("""
                   ____________________
                  | Exiting program..  |
                   ____________________""")
+            time.sleep(2)
             break
         else:
             print("""
