@@ -135,15 +135,17 @@ Draw out and relate implications.
 ### Peer Verifications
 Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
 
+Classmate - heuhahuhuh sleezy nonchalant dreadhead
+
 For Plus, outline any positive aspects / what works.
 
 For Minus, outline any negative aspects / what does not work.
 
 For Implication, you need to go deeper and evaluate the impact of what the plus and minuses mean for the project (i.e. make a judgement and determine what action is needed, or what the impact of the plus and minus is).
 
-Plus
-Minus
-Implication
+|Plus |Minus |Implication |
+|-----|------|------------|
+|     |      |            |
 
 
 ## Evaluation
