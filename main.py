@@ -11,7 +11,6 @@ from data_module import (
 
 def main_menu():
     while True:
-        time.sleep(3)
         print("""
                   _________________________________
                  |       Data Viewer Interface     |

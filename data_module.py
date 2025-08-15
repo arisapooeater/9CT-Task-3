@@ -1,34 +1,36 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import time
 
+# Read the contents of my csv file chocolate.csv into the dataframe data_df
 data_df = pd.read_csv('data/chocolate.csv')
 
 # Remove the column Timestamp from the DataFrame data_df
 data_df.drop(columns=['Timestamp'], inplace=True)
 
-
+# Function for printing the chocolate.csv dataset for the user to see
 def display_dataset_preview():
-    pd.set_option('display.max_rows', 1000)
+    pd.set_option('display.max_rows', 1000) # Setting row limit to 1000 so all 88 rows of my data is printed
     print(data_df)
+    time.sleep(2)
 
-
+# Function for visualising the dataframe into a bar graph for the user to see and interact with
 def display_visualisation():
-    # Make the averages of each column(question 1, 2, 3) in the chocolate data
-    averages = data_df.mean()
-    colors = ["blue", "orange", "pink"]
+    # Find the averages of each column(question 1, 2, 3) in the chocolate data
+    averages = data_df.mean() 
+    colours = ["blue", "orange", "pink"] # Colours for each bar
     # Make the bars
-    bars = plt.bar(averages.index, averages.values, color=colors)
+    bars = plt.bar(averages.index, averages.values, color=colours)
 
-    # Creating a legend for each colour bar
-    plt.legend(bars, ["Control", "After unethical practices identification", "After brand recognition"])
-    plt.ylabel("Average rating (1-5)")
-    plt.title("Average likelihood of consumers buying chocolate (According to awareness)")
+    plt.ylabel("Average rating (1-5)") #Labelling the y axis
+    plt.title("Average likelihood of consumers buying chocolate (According to awareness)") # Labelling the graph
     plt.ylim(0, 5)  # Ratings/inclination to buy chocolate goes from 1 to 5(5 being definitely buy)
-    plt.show()
+    plt.show() # Showing the visualisation to the user
+
     return
 
-
+# Function
 def search_data():
     while True:
         print(f"""
@@ -40,7 +42,7 @@ def search_data():
                    ____________________________________________________""")
 
         search_options = int(input("""
-                  Choose what data you want to search (1 or 2): """))
+                  Choose what data you want to search (1/2): """))
 
         if search_options == 1:
             print("""
@@ -64,7 +66,7 @@ def search_data():
                 print("""
                    _____________________________________________________
                   | Invalid selection. Please select a number between 0 |
-                  | and 2 (0, 1 or 2).                                  |
+                  | and 2 (0/1/2).                                  |
                    _____________________________________________________ """) 
                 
         elif search_options == 2:
@@ -79,9 +81,10 @@ def search_data():
                   _____________________________________________________
                  | Invalid selection. Please select the number 1 or 2. |
                   _____________________________________________________""")
-            
+        time.sleep(2)   
         print("""
                   ___________________________
                  | Returning to MAIN MENU... |
                   ___________________________""")
-        return
+        time.sleep(2)
+        return #Returning to main while loop in main.py
