@@ -128,9 +128,10 @@ Awareness is a responsibility we all have as consumers to ultimately promote eth
 ### Analyse and Conclude
 Analyse your findings using at least one SEE-I paragraph. If you spot areas needing more research, make a note of them in your findings. Make sure to provide a conclusion on your hypothesis.
 
-Analyse
-Identify components and the relationship between them.
-Draw out and relate implications.
+Analyse - (Identify components and the relationship between them.Draw out and relate implications. )
+
+areas need more research -
+conclusion of hypothesis - 
 
 ### Peer Verifications
 Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
@@ -150,21 +151,9 @@ For Implication, you need to go deeper and evaluate the impact of what the plus 
 
 ## Evaluation
 **1. Evaluate your system and results in relation to your Requirements Outline**
-For functional requirements
--data loading - my system can load csv files to read and printsthem as dataframes but it cannot load png files as there is no png file in my user interface to load anyway - its also got no code for errors like the file is missing or etc because i dont know how to code that but it has clear and specific messages for when the user types a command wrong
+My system and results adequately aligns with my functional and non-functional requirements, but has lacks some factors due to some changes. For the functional requirements, the system is satisfactory in terms of data cleaning and data reporting as Google Forms automatically sorts the data into columns and I removed the Timeframe column when I read the csv file into a dataframe. My system also completes the data analysis requirement as it calculates the average of each question's responses for the visualisation, which turned out not to be a grouped bar chort or box plot as they were either too difficult or wasn't what I wanted the data I got to look like. However, my system doesn't load png files as I stated in the data loading as there is no png file in my user interface to load.
 
--data cleaning - satisfactory, my user interface can delete the timelapse column and has the results ordered correctly in each column (which is automatic due to google forms lol)
-
--data analysis - my user interface does calculate the average of each column so i think ive done this perfectly
-
-- data visualisation - my graph is not in a grouped bar chart nor is it in a box plot as the box plot turned out not to be really what i was looking for and i couldnt figure out how to use the grouped bar chart
-
--data reporting - data reporting is perfeclty done everything is in range 1-5 from questions 1 -3 columns
-
-On the other hand, in terms of non-functional requirements,
-- Speed : system is fast to load but also not automatic so user is given time before moving on to the next command
-- Security : All data taken from students is anonymous and not attached to any gmails (thanks to google forms)
-- Reliability : Error messages for user's incorrect commands are specific and clear, however i do not have any error messages for things like incorrect file format. Data used and displayed in this project/final reporting is accurate to student responses, and within established range(1-5).
+On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear and concise in the purpose of the system and how to use it and the user interface is decently easy to naviage and (                )
 
 
 - Usability : The 'README' document needs to clear and concise in the purpose of the system and how to use it. The User Interface is decently easy to navigate and (_____ to viewers based on peer review), but is not accessible for people with visual impairements.
