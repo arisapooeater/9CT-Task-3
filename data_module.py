@@ -27,6 +27,7 @@ def display_visualisation():
     # Make the bars
     bars = plt.bar(averages.index, averages.values, color=colours)
 
+    plt.legend("Inclination to buying chocolate before any conditions", "After consumers are aware the unknown brand has several unethical practices", "After consumers are aware of several unethical practices AND popular brand name")
     plt.ylabel("Average rating (1-5)") #Labelling the y axis
     plt.title("Average likelihood of consumers buying chocolate (According to awareness)") # Labelling the graph
     plt.ylim(0, 5)  # Ratings/inclination to buy chocolate goes from 1 to 5(5 being definitely buy)
@@ -58,7 +59,7 @@ def search_data():
                   |          QUESTION/COLUMN RESPONSE OPTIONS          |
                   |----------------------------------------------------|
                   | 0. Control (inclination to buying chocolate        |     
-                  |             in general)                            |   
+                  |             before any conditions)                 |   
                   | 1. After unethical practices identification        |
                   |    (Consumers being aware the unknown brand has    |
                   |     several unethical practices)                   |
