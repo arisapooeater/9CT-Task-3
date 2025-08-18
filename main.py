@@ -12,14 +12,14 @@ from data_module import (
 def main_menu():
     while True:
         print("""
-                  _________________________________
-                 |       Data Viewer Interface     |
-                 |---------------------------------| 
-                 | 1. View dataset                 |
-                 | 2. View visualisation           |
-                 | 3. Search specific data         |
-                 | 4. Exit                         |
-                  _________________________________""")
+                  ___________________________________________
+                 |            Data Viewer Interface          |
+                 |-------------------------------------------| 
+                 | 1. View dataset                           |
+                 | 2. View visualisation (average bar graph) |
+                 | 3. Search specific data                   |
+                 | 4. Exit                                   |
+                  ___________________________________________""")
 
 
         menu_choice = int(input("""

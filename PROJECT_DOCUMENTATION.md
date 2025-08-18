@@ -130,10 +130,12 @@ Analyse your findings using at least one SEE-I paragraph. If you spot areas need
 
 Analyse - (Identify components and the relationship between them.Draw out and relate implications. )
 
-areas need more research -
-conclusion of hypothesis - 
+
+conclusion of hypothesis - my hypothesis was overall supported by the data, but i believe the questions I asked the students in the Google Form isn't enough to just verify that yes, brand recognition and awareness of practices play roles in consumers buying chocolate
+areas need more research - maybe questions in the gOOGLE FORM that was more like "What influenced you to buy the chocolate more/less?" and it could have the options 'brand recognition', 'bad practices in brand' and etc. so the students intentions and opinions was more clear. or questions that include a unpopular brand with good practices to see where consumer values really lay
 
 ### Peer Verifications
+
 Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
 
 Classmate - heuhahuhuh sleezy nonchalant dreadhead

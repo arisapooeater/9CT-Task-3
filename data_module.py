@@ -14,6 +14,10 @@ def display_dataset_preview():
     pd.set_option('display.max_rows', 1000) # Setting row limit to 1000 so all 88 rows of my data is printed
     print(data_df)
     time.sleep(2)
+    print("""
+                  ___________________________
+                 | Returning to MAIN MENU... |
+                  ___________________________""")
 
 # Function for visualising the dataframe into a bar graph for the user to see and interact with
 def display_visualisation():
@@ -27,10 +31,14 @@ def display_visualisation():
     plt.title("Average likelihood of consumers buying chocolate (According to awareness)") # Labelling the graph
     plt.ylim(0, 5)  # Ratings/inclination to buy chocolate goes from 1 to 5(5 being definitely buy)
     plt.show() # Showing the visualisation to the user
+    time.sleep(2)   
+    print("""
+                  ___________________________
+                 | Returning to MAIN MENU... |
+                  ___________________________""")
+    return #Returning to main while loop in main.py
 
-    return
-
-# Function
+# Function for printing specific rows and columns from chocolate.csv
 def search_data():
     while True:
         print(f"""
