@@ -131,21 +131,18 @@ Analyse your findings using at least one SEE-I paragraph. If you spot areas need
 Analyse - (Identify components and the relationship between them.Draw out and relate implications. )
 
 
-conclusion of hypothesis - my hypothesis was overall supported by the data, but i believe the questions I asked the students in the Google Form isn't enough to just verify that yes, brand recognition and awareness of practices play roles in consumers buying chocolate
+conclusion of hypothesis - 
+My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation,   students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised
+Evaluate
+Example
+Imagine
+Awareness of unethical practices in companies would reduce students' willingness to buy its products. However, when that company is popular or widely recognised, many would be more reluctant to refrain from buying these products even if they are unethically sourced.
+
+
+my hypothesis was overall supported by the data, but i believe the questions I asked the students in the Google Form isn't enough to just verify that yes, brand recognition and awareness of practices play roles in consumers buying chocolate
 areas need more research - maybe questions in the gOOGLE FORM that was more like "What influenced you to buy the chocolate more/less?" and it could have the options 'brand recognition', 'bad practices in brand' and etc. so the students intentions and opinions was more clear. or questions that include a unpopular brand with good practices to see where consumer values really lay
 
 ### Peer Verifications
-
-Exchange your work with a classmate. Verify each other's datasets, calculations, and outputs. Provide feedback – PMI tables are helpful here (Plus, Minus, Implication).
-
-Classmate - heuhahuhuh sleezy nonchalant dreadhead
-
-For Plus, outline any positive aspects / what works.
-
-For Minus, outline any negative aspects / what does not work.
-
-For Implication, you need to go deeper and evaluate the impact of what the plus and minuses mean for the project (i.e. make a judgement and determine what action is needed, or what the impact of the plus and minus is).
-
 |Plus |Minus |Implication |
 |-----|------|------------|
 |     |      |            |
@@ -155,15 +152,13 @@ For Implication, you need to go deeper and evaluate the impact of what the plus 
 **1. Evaluate your system and results in relation to your Requirements Outline**
 My system and results adequately aligns with my functional and non-functional requirements, but has lacks some factors due to some changes. For the functional requirements, the system is satisfactory in terms of data cleaning and data reporting as Google Forms automatically sorts the data into columns and I removed the Timeframe column when I read the csv file into a dataframe. My system also completes the data analysis requirement as it calculates the average of each question's responses for the visualisation, which turned out not to be a grouped bar chort or box plot as they were either too difficult or wasn't what I wanted the data I got to look like. However, my system doesn't load png files as I stated in the data loading as there is no png file in my user interface to load.
 
-On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear and concise in the purpose of the system and how to use it and the user interface is decently easy to naviage and (                )
+On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to naviage and (                )  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
 
-
-- Usability : The 'README' document needs to clear and concise in the purpose of the system and how to use it. The User Interface is decently easy to navigate and (_____ to viewers based on peer review), but is not accessible for people with visual impairements.
 
 **2. Evaluate your system in relation to peer feedback**
 
 **3. Evaluate your project in relation to project management**
-In terms of project management, I'm pretty satisfied with my productivity compared to the last assessment. I finished the prac component of this assessment in around 3 days by doing some work at home and kept myself ahead of task to prevent myself from procrastinating or losing my mind like last time. Due to how fast I finished the user interface, I think I could've finished this documentation earlier, which is something I can improve on next time, however I was going through a bit of a study slump so I'm happy I gave time for myself while still working at a good pace in this project. Overall I think my project management was adequate and I'm content with the way I structured what and when I wanted to do each part of the project so I'm not stressed but also working productively.
+In terms of project management, I'm pretty satisfied with my productivity compared to the last assessment. I finished the prac component of this assessment in around 3 days by doing some work at home and kept myself ahead of task to prevent myself from procrastinating or losing my mind like last time. I also can see on Github that my commits aren't too spaced out and are consistent with no big time gaps so I think that's good. Due to how fast I finished the user interface, I think I could've finished this documentation earlier, which is something I can improve on next time, however I was going through a bit of a study slump so I'm happy I gave time for myself while still working at a good pace in this project. Overall I think my project management was adequate and I'm content with the way I structured what and when I wanted to do each part of the project so I'm not stressed but also working productively.
 
 **4. Evaluate your system in relation to its data and security. Is the data valid, accurate and timely? Is it unbiased? Do we need to improve its security -- If so, how? Could the UX be more accessible -- how?**
 I believe my data is pretty valid as I tried to make it reflect how real consumers would react when buying chocolate at varying degrees of awareness/influences (awareness of unethical practices, influences of knowing the brand as popular etc). I tried my best to prioritise data accuracy by adding a control question at the beginning and seeing how the range of responses change as variables are added one at a time. Additionally, I made the format of the data I see the same (Range from 1-5) to be able to clearly see the nuances between each question's responses. However, I believe there will also be some skewing in accurracy as in these types of forms, students tend to be less honest as they know what the "right" answer should look like, or they may be influenced by aspects like peer pressure while responding. 

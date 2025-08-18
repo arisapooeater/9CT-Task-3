@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import time
+import os
 
 # Read the contents of my csv file chocolate.csv into the dataframe data_df
 data_df = pd.read_csv('data/chocolate.csv')
@@ -18,17 +19,16 @@ def display_dataset_preview():
                   ___________________________
                  | Returning to MAIN MENU... |
                   ___________________________""")
+    return #Returning to main while loop in main.py
+
 
 # Function for visualising the dataframe into a bar graph for the user to see and interact with
 def display_visualisation():
     # Find the averages of each column(question 1, 2, 3) in the chocolate data
     averages = data_df.mean() 
     colours = ["blue", "orange", "pink"] # Colours for each bar
-    # Make clarifying labels for the bars to put in the legend
-    #legend_label = ['Inclination to buying chocolate before any conditions', 'After consumers are aware the unknown brand has several unethical practices', 'After consumers are aware of several unethical practices AND popular brand name']
     bars = plt.bar(averages.index, averages.values, color=colours) # Make the bars
 
-    plt.legend()
     plt.ylabel("Average rating (1-5)") #Labelling the y axis
     plt.title("Average likelihood of consumers buying chocolate (According to awareness)") # Labelling the graph
     plt.ylim(0, 5)  # Ratings/inclination to buy chocolate goes from 1 to 5(5 being definitely buy)
@@ -38,6 +38,8 @@ def display_visualisation():
                   ___________________________
                  | Returning to MAIN MENU... |
                   ___________________________""")
+    time.sleep(3)
+    os.system('cls')
     return #Returning to main while loop in main.py
 
 # Function for printing specific rows and columns from chocolate.csv
@@ -49,52 +51,70 @@ def search_data():
                   |----------------------------------------------------|
                   | 1. Search all data for a specific question/column  |
                   | 2. Search data for a specific person's responses   |
+                  | 3. RETURN TO MAIN MENU                             |
                    ____________________________________________________""")
 
-        search_options = int(input("""
-                  Choose what data you want to search (1/2): """))
-
-        if search_options == 1:
-            print("""
+        search_options = input("""
+                  Choose what data you want to search (1-3): """)
+        
+        os.system('cls')
+        if search_options == '1':
+            while True:
+                print("""
                    ____________________________________________________
                   |          QUESTION/COLUMN RESPONSE OPTIONS          |
                   |----------------------------------------------------|
-                  | 0. Control (inclination to buying chocolate        |     
-                  |             before any conditions)                 |   
+                  | 0. Control (before conditions)                     |
+                  |    (inclination to buying chocolate before any     |
+                  |                                    conditions)     | 
                   | 1. After unethical practices identification        |
                   |    (Consumers being aware the unknown brand has    |
                   |     several unethical practices)                   |
                   | 2. After brand recognition                         |
-                   ____________________________________________________
-              """)
-            column_options = int(input("""
-                  Choose what column/question's data you want to see (0-2): """))
-            if column_options == 0 or column_options == 1 or column_options == 2:
-                column = data_df.iloc[:,column_options]
-                print(column)
-            else:
-                print("""
+                  | 3. RETURN TO SEARCHING OPTIONS                     |
+                   ____________________________________________________ """)
+                column_options = input("""
+                  Choose what column/question's data you want to see (0-3): """)
+                
+                os.system('cls')
+                if column_options == '0' or column_options == '1' or column_options == '2':
+                    column = data_df.iloc[:,column_options]
+                    print(column)
+                elif column_options == 3:
+                    time.sleep(2)
+                    print("""
+                   ___________________________________
+                  | Returning to SEARCHING OPTIONS... |
+                   ___________________________________""")
+                    os.system('cls')
+                    break #Returning to searching options while loop
+                else:
+                    print("""
                    _____________________________________________________
                   | Invalid selection. Please select a number between 0 |
-                  | and 2 (0/1/2).                                  |
+                  | and 2 (0/1/2/3).                                    |
                    _____________________________________________________ """) 
                 
-        elif search_options == 2:
-            response_options = int(input("""
-                  Choose a response number between 0 and 87: """))
-            response = data_df.iloc[response_options,:]
+        elif search_options == '2':
+            response_options =input("""
+                  Choose a response number between 0 and 87: """)
+            response = data_df.iloc[response_options,]
             print(response)
         
-
-        else:
+        elif search_options == '3':
+            time.sleep(2)
             print("""
-                  _____________________________________________________
-                 | Invalid selection. Please select the number 1 or 2. |
-                  _____________________________________________________""")
-        time.sleep(2)   
-        print("""
                   ___________________________
                  | Returning to MAIN MENU... |
                   ___________________________""")
-        time.sleep(2)
-        return #Returning to main while loop in main.py
+            os.system('cls')
+            return #Returning to main while loop in main.py
+            
+        else:
+            print("""
+                  ______________________________________________
+                 | Invalid selection. Please a number between 0 |            
+                 | and 3 (0/1/2/3).                             | 
+                  ______________________________________________""")
+        time.sleep(2)   
+        
