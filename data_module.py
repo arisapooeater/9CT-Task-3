@@ -65,7 +65,7 @@ def search_data():
                    ____________________________________________________
                   |          QUESTION/COLUMN RESPONSE OPTIONS          |
                   |----------------------------------------------------|
-                  | 0. Control (before conditions)                     |
+                  | 0. Control(Before conditions)                      |
                   |    (inclination to buying chocolate before any     |
                   |                                    conditions)     | 
                   | 1. After unethical practices identification        |
