@@ -13,9 +13,9 @@ from data_module import (
 def main_menu():
     time.sleep(1)
     print("""
-                 -- WELCOME TO THE DATA VIEWER INTERFACE --""")
+                🍫 WELCOME TO THE DATA VIEWER INTERFACE 🍫 """)
     time.sleep(1)
-    print("""    Remember to read the README file before interacting with this program!""") 
+    print("""    \x1B[3mRemember to read the README file before interacting with this program!\x1B[23m""") 
     time.sleep(2)
 
     while True:

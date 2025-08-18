@@ -57,7 +57,7 @@ def search_data():
 
         search_options = input("""
                   Choose what data you want to search (1-3): """)
-        
+        time.sleep(2)
         os.system('cls')
         if search_options == '1':
             while True:
@@ -79,14 +79,17 @@ def search_data():
                 
                 os.system('cls')
                 if column_options == '0' or column_options == '1' or column_options == '2':
-                    column = data_df.iloc[:,column_options]
+                    pd.set_option('display.max_rows', 1000) # Setting row limit to 1000 so all 88 rows of my data is printed
+                    column_int = int(column_options)
+                    column = data_df.iloc[:, column_int]
                     print(column)
-                elif column_options == 3:
+                elif column_options == '3':
                     time.sleep(2)
                     print("""
                    ___________________________________
                   | Returning to SEARCHING OPTIONS... |
                    ___________________________________""")
+                    time.sleep(3)
                     os.system('cls')
                     break #Returning to searching options while loop
                 else:
@@ -95,12 +98,52 @@ def search_data():
                   | Invalid selection. Please select a number between 0 |
                   | and 2 (0/1/2/3).                                    |
                    _____________________________________________________ """) 
-                
+                time.sleep(2)
         elif search_options == '2':
-            response_options =input("""
-                  Choose a response number between 0 and 87: """)
-            response = data_df.iloc[response_options,]
-            print(response)
+            while True:
+                print("""
+                   ______________________________________________
+                  |            SEARCH RESPONSE OPTIONS           |
+                  |----------------------------------------------|
+                  |  Choose a response number between 0 and 87   |
+                  |                    O R                       |
+                  | Type 'R' to return to searching options menu |   
+                   ______________________________________________""")
+                time.sleep(1)
+                response_options = input("""
+                   Type your action(0-87 / 'R'): """)
+                time.sleep(2)
+                os.system('cls')
+
+                if response_options.isdigit():
+                    response_int = int(response_options)
+                    if 0 <= response_int <= 87:
+                        response = data_df.iloc[response_int, :]
+                        print(response)
+                    else:
+                        print("""
+                  _________________________________________
+                 | Invalid selection. Please type a number |
+                 | between 0 and 87                        |           
+                  _________________________________________""")
+
+                elif response_options == 'R':
+                    print("""
+                  ___________________________________
+                 | Returning to SEARCHING OPTIONS... |
+                  ___________________________________""")
+                    time.sleep(2)
+                    os.system('cls')
+                    break #Returning to searching options menu
+                else:
+                        print("""
+                  ______________________________________________
+                 | Invalid selection. Please a number between 0 |            
+                 | and 87 OR type 'R' to return to searching    |
+                 | options.                                     | 
+                  ______________________________________________""")  
+
+                time.sleep(2)       
         
         elif search_options == '3':
             time.sleep(2)
