@@ -24,10 +24,11 @@ def display_visualisation():
     # Find the averages of each column(question 1, 2, 3) in the chocolate data
     averages = data_df.mean() 
     colours = ["blue", "orange", "pink"] # Colours for each bar
-    # Make the bars
-    bars = plt.bar(averages.index, averages.values, color=colours)
+    # Make clarifying labels for the bars to put in the legend
+    #legend_label = ['Inclination to buying chocolate before any conditions', 'After consumers are aware the unknown brand has several unethical practices', 'After consumers are aware of several unethical practices AND popular brand name']
+    bars = plt.bar(averages.index, averages.values, color=colours) # Make the bars
 
-    plt.legend("Inclination to buying chocolate before any conditions", "After consumers are aware the unknown brand has several unethical practices", "After consumers are aware of several unethical practices AND popular brand name")
+    plt.legend()
     plt.ylabel("Average rating (1-5)") #Labelling the y axis
     plt.title("Average likelihood of consumers buying chocolate (According to awareness)") # Labelling the graph
     plt.ylim(0, 5)  # Ratings/inclination to buy chocolate goes from 1 to 5(5 being definitely buy)
