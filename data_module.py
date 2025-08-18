@@ -12,6 +12,7 @@ data_df.drop(columns=['Timestamp'], inplace=True)
 
 # Function for printing the chocolate.csv dataset for the user to see
 def display_dataset_preview():
+    pd.set_option('display.max_columns', 1000) # Setting column limit to 1000 so all my columns in my data are printed 
     pd.set_option('display.max_rows', 1000) # Setting row limit to 1000 so all 88 rows of my data is printed
     print(data_df)
     time.sleep(2)
