@@ -125,90 +125,50 @@ Awareness is a responsibility we all have as consumers to ultimately promote eth
 
 ## Phase 4 : Testing and Evaluating
 ### Analyse and Conclude (two SEE-I)
-Analyse your findings using at least one SEE-I paragraph. If you spot areas needing more research, make a note of them in your findings. Make sure to provide a conclusion on your hypothesis.
+My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation, students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised, proving that although consumer awareness can play a significant role in decision-making, external factors can prevent consumers from acting upon what they perceive 'ethical'. For instance, it is common knowledge that clothing brands like Cotton On and Zara are fast-fashion companies where most clothing items follow current trends that eventually die out and lead to these items becoming landfill and pollution. Yet, majority of people have bought from these and other like companies even with this awareness, raising the question on if today's consumers are taking proper responsibility for their purchases. It's like  
 
-Analyse - (Identify components and the relationship between them.Draw out and relate implications. )
+However, the data analysis could be improved to clarify connections and better support/oppose my hypothesis, and therefore increase data accuracy and reliability. Within the Google Form I sent out, the questions have the foundation of what I wanted to find out (consumer values: brand recognition or ethical practices ?), however I never really added a clarifying question to why responders were less/more inclined to buy the chocolate after revealing each piece of information about the brand. For example, more specified questions could've been incorporated in my Google Form such as "What influenced you to buy the chocolate more/less?" with options including "brand recognition", "bad practices in brand" and etc, overall elucidating students' intentions and opinions, or scenarios that include an unpopular brand with good practices in comparison to a popular brand with bad practices to see where consumer values lay among students. With the addition of questions like these, it goes from a survey asking "Do you still want to buy the chocolate?" to "What made you want to buy/not buy the chocolate?".
 
-
-conclusion of hypothesis - 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation, students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised, (provingt that)
-
-However, 
-=======
-My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation, students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised. 
->>>>>>> Stashed changes
-=======
-My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation, students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised. 
->>>>>>> Stashed changes
-Evaluate
-Example
-Imagine
+### Peer Verifications - Vanessa He(he)
+| Plus                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------|
+| The interface is consistent and easy to navigate                                                                              |    
+| The README file is comprehensive and contains visual representations                                                          |
+| Data searching is very flexible                                                                                               |
+| Timing in each action makes the program feel animated and more interactive                                                    |   
+| Error handling is clear and comprehensive for users (sends specific error messages)                                           | 
 
 
+| Minus                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------|
+| The timing of some actions are too long and reduces user engagement                                                           |
+| The program pauses while you inspect the visualisation, however some users want to compare the visualisations to other things |
 
-my hypothesis was overall supported by the data, but i believe the questions I asked the students in the Google Form isn't enough to just verify that yes, brand recognition and awareness of practices play roles in consumers buying chocolate
-areas need more research - maybe questions in the gOOGLE FORM that was more like "What influenced you to buy the chocolate more/less?" and it could have the options 'brand recognition', 'bad practices in brand' and etc. so the students intentions and opinions was more clear. or questions that include a unpopular brand with good practices to see where consumer values really lay
-
-### Peer Verifications
-| Plus                                                                        |
-|-----------------------------------------------------------------------------|
-| The interface is consistent and easy to navigate                            |    
-| The README file is comprehensive and contains visual representations        |
-| Data searching                                                              |
-| Timing in each action makes the program feel animated and more interactive  |    
-
-
-| Minus                                                                       |
-|-----------------------------------------------------------------------------|
-| The timing of some actions are too long and reduces user engagement         |
-| The program pauses while you inspect the visualisation, however some users want to compare the visualisations to other thngs
-
-| Implication                                                                 |
-|-----------------------------------------------------------------------------|
-
-Plus
-
-Timing sleep is very good bc it makes it feel animated
-The interface is very easy to navigate and consistent
-The instructions are very nice nice easy to understand
-Nice error handling
-Very good data searching 
-The read me is very easy to follow and has visual representation and is very aesthetic
-
-
-Minus
-Sometimes the timesleep is too long
-I dont like how u have to exit the chart and you can't run the code anymore
-
-
-Implication
-Overall is very good but there are changed that could be made to further enhance user experience and engagement. 
+#### Implication
+> The program is overall detailed and structured, containing several positive aspects mostly surrounding its clarity/readability and the function of specifically the data searching that help create an easy to navigate user interface that ultimately optimises user's ability to meaningfully interact with the data. With some small changes regarding some non-functional requirements like the timing of outputs and allowing the program to continue while the visualisation is in a tab can further enhance the user experience and engagement and contribute to a comprehensive user interface that helps users draw valuable insights from data through analysis and visualisation.
 
 
 
 ## Evaluation
 **1. Evaluate your system and results in relation to your Requirements Outline**
+
 My system and results adequately aligns with my functional and non-functional requirements, but has lacks some factors due to some changes. For the functional requirements, the system is satisfactory in terms of data cleaning and data reporting as Google Forms automatically sorts the data into columns and I removed the Timeframe column when I read the csv file into a dataframe. My system also completes the data analysis requirement as it calculates the average of each question's responses for the visualisation, which turned out not to be a grouped bar chort or box plot as they were either too difficult or wasn't what I wanted the data I got to look like. However, my system doesn't load png files as I stated in the data loading as there is no png file in my user interface to load.
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to navigate and (                )  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
-=======
-On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to navigate and (is a'gj; according to Vanessa and my mum)  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
->>>>>>> Stashed changes
-=======
-On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to navigate and (is a'gj; according to Vanessa and my mum)  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
->>>>>>> Stashed changes
-
+On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved. Additionally, the user interface is decently easy to navigate and UX is consistent and great according to Vanessa and Yuna, but its not accessible for people with visual impairements. If some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option was added, the UX would be greatly enhanced and unified. 
 
 **2. Evaluate your system in relation to peer feedback**
 
+The peer feedback enlightened me on the system's UX, especially since when testing my own program, I focused on small nuances in the program rather than the overall experience. In general, the system received mostly positive comments and according to Vanessa, my system was easy to navigate, aesthetically pleasing and consistent(in terms of graphics) as I was aiming for. Again, since some things in my program feel like 'common sense' to me, the peer feedback allowed me to know the README and error messages were clear and understandable, ultimately indicating to me that my system was accessible and versatile (definitely for my data searching I think), allowing users to interact with the data and form opinions in a practical manner.
+
+HOWEVER, my system was also not perfect either, and if it were to be applicable to real users, the system requires some small tweaks. Vanessa said that some places of my program's loading was too long and decreased her engagement with the system, so next time, the program's time.sleep() code probably need to be altered. Furthermore, she also stated that its inconvenient that the visualisation tab stops the program and she would've liked to compare it to other functions in the user interface so some changes need to be made to fix this to allow users to interact more deeply with the data.
+
+
 **3. Evaluate your project in relation to project management**
+
 In terms of project management, I'm pretty satisfied with my productivity compared to the last assessment. I finished the prac component of this assessment in around 3 days by doing some work at home and kept myself ahead of task to prevent myself from procrastinating or losing my mind like last time. I also can see on Github that my commits aren't too spaced out and are consistent with no big time gaps so I think that's good. Due to how fast I finished the user interface, I think I could've finished this documentation earlier, which is something I can improve on next time, however I was going through a bit of a study slump so I'm happy I gave time for myself while still working at a good pace in this project. Overall I think my project management was adequate and I'm content with the way I structured what and when I wanted to do each part of the project so I'm not stressed but also working productively.
 
 **4. Evaluate your system in relation to its data and security. Is the data valid, accurate and timely? Is it unbiased? Do we need to improve its security -- If so, how? Could the UX be more accessible -- how?**
+
 I believe my data is pretty valid as I tried to make it reflect how real consumers would react when buying chocolate at varying degrees of awareness/influences (awareness of unethical practices, influences of knowing the brand as popular etc). I tried my best to prioritise data accuracy by adding a control question at the beginning and seeing how the range of responses change as variables are added one at a time. Additionally, I made the format of the data I see the same (Range from 1-5) to be able to clearly see the nuances between each question's responses. However, I believe there will also be some skewing in accurracy as in these types of forms, students tend to be less honest as they know what the "right" answer should look like, or they may be influenced by aspects like peer pressure while responding. 
 
 In terms of timeliness, I think my data is very reflective of the present as I received the data via a Google Form with student responses from the 31st of July to around 11th of August, which is this month. Furthermore, the topic I'm researching is not something that can drastically change in such a short amount of time so I personally believe my data is aligned with the current student's perspectives.
