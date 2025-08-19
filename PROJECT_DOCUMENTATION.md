@@ -124,14 +124,16 @@ Awareness is a responsibility we all have as consumers to ultimately promote eth
 
 
 ## Phase 4 : Testing and Evaluating
-### Analyse and Conclude
+### Analyse and Conclude (two SEE-I)
 Analyse your findings using at least one SEE-I paragraph. If you spot areas needing more research, make a note of them in your findings. Make sure to provide a conclusion on your hypothesis.
 
 Analyse - (Identify components and the relationship between them.Draw out and relate implications. )
 
 
 conclusion of hypothesis - 
-My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation,   students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised
+My hypothesis was overall supported by the data analysed, but there are several unexplored areas that may need investigation for this project to be accurate and reliable. According to the comparison in the data visualisation, students ARE less willing to buy chocolate when made aware of unethical company practices but are more reluctant to refrain when the brand is widely recognised, (provingt that)
+
+However, 
 Evaluate
 Example
 Imagine
@@ -146,12 +148,32 @@ areas need more research - maybe questions in the gOOGLE FORM that was more like
 |-----|------|------------|
 |     |      |            |
 
+Plus
+
+Timing sleep is very good bc it makes it feel animated
+The interface is very easy to navigate and consistent
+The instructions are very nice nice easy to understand
+Nice error handling
+Very good data searching 
+I like how it tells you where the data is from
+The read me is very easy to follow and has visual representation and is very aesthetic
+I like u told the purpose of 
+
+Minus
+Sometimes the timesleep is too long
+I dont like how u have to exit the chart and you can't run the code anymore
+
+
+Implication
+Overall is very good but there are changed that could be made to further enhance user experience and engagement. 
+
+
 
 ## Evaluation
 **1. Evaluate your system and results in relation to your Requirements Outline**
 My system and results adequately aligns with my functional and non-functional requirements, but has lacks some factors due to some changes. For the functional requirements, the system is satisfactory in terms of data cleaning and data reporting as Google Forms automatically sorts the data into columns and I removed the Timeframe column when I read the csv file into a dataframe. My system also completes the data analysis requirement as it calculates the average of each question's responses for the visualisation, which turned out not to be a grouped bar chort or box plot as they were either too difficult or wasn't what I wanted the data I got to look like. However, my system doesn't load png files as I stated in the data loading as there is no png file in my user interface to load.
 
-On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to naviage and (                )  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
+On the other hand, in terms of non-functional requirements, the system is fast enough to load but also not automatic so the user is given time before moving on to the next command, and all data taken from students is anonymous, thanks to Google Forms setting options. For reliability, the data used and displayed in the final reporting is accurate to the student responses and within the established range of 1-5, and the error messages for user's incorrect commands are specific and clear, but I do not have any error messages coded for things like incorrect file format. Finally for the usability requirement, I believe my project's 'README' document is clear in the purpose of the system and how to use it as it also has images to guide users. However, the 'How To Use' section isn't as concise as it could be so next time that could be improved.  and the user interface is decently easy to navigate and (                )  but its not accessible for people with visual impairements so some colour, more visually contrasting and appealing graphics and maybe some audio that reads each option could greatly enhance the UX.
 
 
 **2. Evaluate your system in relation to peer feedback**
