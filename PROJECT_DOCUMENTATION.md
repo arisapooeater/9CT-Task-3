@@ -144,9 +144,21 @@ my hypothesis was overall supported by the data, but i believe the questions I a
 areas need more research - maybe questions in the gOOGLE FORM that was more like "What influenced you to buy the chocolate more/less?" and it could have the options 'brand recognition', 'bad practices in brand' and etc. so the students intentions and opinions was more clear. or questions that include a unpopular brand with good practices to see where consumer values really lay
 
 ### Peer Verifications
-|Plus |Minus |Implication |
-|-----|------|------------|
-|     |      |            |
+| Plus                                                                        |
+|-----------------------------------------------------------------------------|
+| The interface is consistent and easy to navigate                            |    
+| The README file is comprehensive and contains visual representations        |
+| Data searching                                                              |
+| Timing in each action makes the program feel animated and more interactive  |    
+
+
+| Minus                                                                       |
+|-----------------------------------------------------------------------------|
+| The timing of some actions are too long and reduces user engagement         |
+| The program pauses while you inspect the visualisation, however some users want to compare the visualisations to other thngs
+
+| Implication                                                                 |
+|-----------------------------------------------------------------------------|
 
 Plus
 
@@ -155,9 +167,8 @@ The interface is very easy to navigate and consistent
 The instructions are very nice nice easy to understand
 Nice error handling
 Very good data searching 
-I like how it tells you where the data is from
 The read me is very easy to follow and has visual representation and is very aesthetic
-I like u told the purpose of 
+
 
 Minus
 Sometimes the timesleep is too long
