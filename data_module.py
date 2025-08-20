@@ -40,12 +40,12 @@ def display_visualisation():
                  | Returning to MAIN MENU... |
                   ___________________________""")
     time.sleep(3)
-    os.system('cls')
+    os.system('cls') #Clear the screen
     return #Returning to main while loop in main.py
 
 # Function for printing specific rows and columns from chocolate.csv
 def search_data():
-    while True:
+    while True: #Makes sure the searching option loops so if they respond wrong or want to keep interacting with the searching options, it loops
         print(f"""
                    ____________________________________________________
                   |                 SEARCHING OPTIONS                  |
@@ -58,9 +58,9 @@ def search_data():
         search_options = input("""
                   Choose what data you want to search (1-3): """)
         time.sleep(2)
-        os.system('cls')
+        os.system('cls') #Clear the screen
         if search_options == '1':
-            while True:
+            while True: #Makes sure the question/column response option loops so if they respond wrong or want to keep interacting with the question/column response options, it loops
                 print("""
                    ____________________________________________________
                   |          QUESTION/COLUMN RESPONSE OPTIONS          |
@@ -77,11 +77,11 @@ def search_data():
                 column_options = input("""
                   Choose what column/question's data you want to see (0-3): """)
                 
-                os.system('cls')
+                os.system('cls') #Clear the screen
                 if column_options == '0' or column_options == '1' or column_options == '2':
                     pd.set_option('display.max_rows', 1000) # Setting row limit to 1000 so all 88 rows of my data is printed
-                    column_int = int(column_options)
-                    column = data_df.iloc[:, column_int]
+                    column_int = int(column_options) #Turning the string response into an integer (since we confirmed it was either '0', '1', or '2')
+                    column = data_df.iloc[:, column_int] #Select all the rows and column number they chose
                     print(column)
                 elif column_options == '3':
                     time.sleep(2)
@@ -90,9 +90,9 @@ def search_data():
                   | Returning to SEARCHING OPTIONS... |
                    ___________________________________""")
                     time.sleep(3)
-                    os.system('cls')
+                    os.system('cls') #Clear the screen
                     break #Returning to searching options while loop
-                else:
+                else: #Error message 
                     print("""
                    _____________________________________________________
                   | Invalid selection. Please select a number between 0 |
@@ -102,25 +102,25 @@ def search_data():
         elif search_options == '2':
             while True:
                 print("""
-                   ______________________________________________
-                  |            SEARCH RESPONSE OPTIONS           |
-                  |----------------------------------------------|
-                  |  Choose a response number between 0 and 87   |
-                  |                    O R                       |
-                  | Type 'R' to return to searching options menu |   
-                   ______________________________________________""")
+                   ____________________________________________________
+                  |            SEARCH RESPONSE OPTIONS                 |
+                  |----------------------------------------------------|
+                  |  Choose a integer response number between 0 and 87 |
+                  |                    O R                             |
+                  | Type 'R' to return to searching options menu       |   
+                   ____________________________________________________""")
                 time.sleep(1)
                 response_options = input("""
                    Type your action(0-87 / 'R'): """)
                 time.sleep(2)
-                os.system('cls')
+                os.system('cls') #Clear the screen
 
-                if response_options.isdigit():
-                    response_int = int(response_options)
+                if response_options.isdigit(): #Making sure the string response is a digit so I can turn it into an integer
+                    response_int = int(response_options) #Turning response into integer
                     if 0 <= response_int <= 87:
-                        response = data_df.iloc[response_int, :]
+                        response = data_df.iloc[response_int, :] #Select all columns and the specific row they chose
                         print(response)
-                    else:
+                    else:  #Error message 
                         print("""
                   _________________________________________
                  | Invalid selection. Please type a number |
@@ -133,9 +133,9 @@ def search_data():
                  | Returning to SEARCHING OPTIONS... |
                   ___________________________________""")
                     time.sleep(2)
-                    os.system('cls')
+                    os.system('cls') #Clear the screen
                     break #Returning to searching options menu
-                else:
+                else:  #Error message 
                         print("""
                   ______________________________________________
                  | Invalid selection. Please a number between 0 |            
@@ -151,10 +151,10 @@ def search_data():
                   ___________________________
                  | Returning to MAIN MENU... |
                   ___________________________""")
-            os.system('cls')
+            os.system('cls') #Clear the screen
             return #Returning to main while loop in main.py
             
-        else:
+        else:  #Error message 
             print("""
                   ______________________________________________
                  | Invalid selection. Please a number between 0 |            
